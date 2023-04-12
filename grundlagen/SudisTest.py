@@ -44,7 +44,10 @@ class TestStudisParticipants(unittest.TestCase):
         self.s3.enroll("Algebra", "Datenbanken", "TI", "Python")
 
     def test_4(self):
-        expected_output = ["Student Name: Ali, Age: 23, Courses: ['Python', 'Datenbanken', 'TI', 'Mathe']", "Student Name: Max, Age: 23, Courses: ['Algebra', 'Datenbanken', 'TI', 'Python']"]
+        expected_output = [
+            "Student Name: Ali, Age: 23, Courses: ['Python', 'Datenbanken', 'TI', 'Mathe']",
+            "Student Name: Max, Age: 23, Courses: ['Algebra', 'Datenbanken', 'TI', 'Python']"
+        ]
         self.assertEqual(studis.Student.get_course_participants("Python"), expected_output)
 
 if __name__ == '__main__':

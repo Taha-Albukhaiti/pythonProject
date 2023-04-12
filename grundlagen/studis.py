@@ -45,6 +45,8 @@ class Student:
 
 
 
+"""
+
 
 s1 = Student("Taha", 25)
 s2 = Student("Ali", 23)
@@ -53,8 +55,6 @@ s1.enroll("Programmierung", "Datenbanken", "TI", "Mathe")
 s2.enroll("Python", "Datenbanken", "TI", "Mathe")
 s3.enroll("Algebra", "Datenbanken", "TI", "Python")
 print(Student.get_course_participants("Python"))
-
-"""
 
 s2.course = ["TI", "Datenbanken"]
 s3.course = ["TI", "Programmierung"]
