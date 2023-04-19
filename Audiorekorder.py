@@ -2,7 +2,8 @@ import urllib.request
 import datetime
 import argparse
 
-# ---- Beispiel für Ausführung über Terminal ----
+# Autor Taha Al-Bukhaiti
+# ---- Beispiel für die Ausführung über Terminal ----
 # python3 Audiorekorder.py http://stream.antenne1.de/a1stg/livestream2.mp3 --filename=audio.mp3 --duration=20 --blocksize=2000
 
 # Die Klasse ArgumentParser aus der Bibliothek argparse erstellt die Cli Interface
